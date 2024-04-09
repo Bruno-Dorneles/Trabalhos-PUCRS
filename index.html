@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-light py-4">
+        <div class="container">
+          <h1>PetShop</h1>
+          <nav>
+            <ul class="nav">
+
+              <li class="nav-item"><a class="nav-link" href="#home">              Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#produtos">          Produtos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#servicos">          Serviços</a></li>
+              <li class="nav-item"><a class="nav-link" href="#cadastro_cliente"> Cadastro de Cliente</a></li>
+              <li class="nav-item"><a class="nav-link" href="#cadastro_pet">     Cadastro de Pet</a></li>
+              <li class="nav-item"><a class="nav-link" href="#agendamentos">      Agendamentos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#servicos">        Tele busca</a></li>
+
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+
+    <div class="container my-5">
+
+
+        <!-- Loja de Produtos -->
+        <section id="produtos">
+          <h2>Produtos</h2>
+          <div class="row">
+            
+            <div class="col-md-4">
+              <a href="C:\Users\victo\Desktop\Do code, not war\index.html\shop.html">
+              <img src="https://th.bing.com/th/id/OIP.d-JZ_EVAn5mxUqAgmyUIuAHaHa?rs=1&pid=ImgDetMain" alt="Produto 1" class="img-fluid mb-2">
+              </a>
+              <h4>Ração Magnum Original </h4>
+              <p>10kg | Ração seca com alto indice de proteina </p>
+              <p>R$ 99,99</p>
+              
+            </div>
+    
+            <div class="col-md-4">
+                <img src="https://petbemviver.com.br/wp-content/uploads/2021/12/golden-gato-filhote-10.jpg" alt="Produto 2" class="img-fluid mb-2">
+                <h4>Ração Golden Filhote</h4>
+                <p>10,1kg | Ração Premium para Gatos filhotes</p>
+                <p>R$ 99,99</p>
+            </div>
+            
+            <div class="col-md-4">
+                <img src="https://images.petz.com.br/fotos/1656091911177.jpg" alt="Produto 3" class="img-fluid mb-2">
+                <h4>Ração PremiarR </h4>
+                <p>7,5kg | Ração Premier Raças Específicas Yorkshire para Cães Adultos</p>
+                <p>R$ 99,99</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="https://polipet.fbitsstatic.net/img/p/racao-golden-formula-cachorros-adultos-salmao-e-arroz-15-0kg-94789/288792.jpg?w=430&h=430&v=no-change&qs=ignore" alt="Produto 1" class="img-fluid mb-2">
+                <h4>Ração Magnum Original </h4>
+                <p>10,1kg | Ração seca com alto indice de proteina </p>
+                <p>R$ 99,99</p>
+            </div>
+      
+            <div class="col-md-4">
+                <img src="https://th.bing.com/th/id/OIP.PYgPljHIM5z_DVlDSZnt1wHaHa?w=500&h=500&rs=1&pid=ImgDetMain" alt="Produto 1" class="img-fluid mb-2">
+                <h4>Ração Nutrilus Pro </h4>
+                <p>10kg | Ração seca com alto indice de proteina </p>
+                <p>R$ 99,99</p>
+            </div>
+
+          </div>
+        </section>
+
+
+
+
+        <!-- Clicar na foto e abrir uma nova pagina pré venda
+        
+            *Botão
+            *Script
+            *Vai gerar uma pagina com as informações do html 
+        
+        --> 
+
+
+        
+
+        <!-- Serviços do PetShop -->
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div class="row">
+
+              <div class="col-md-4">
+                <img src="https://th.bing.com/th/id/OIP.DDlsZ5nQOlNnzBDsOA_k9AHaFF?rs=1&pid=ImgDetMain" alt="Serviço 1" class="img-fluid mb-2">
+                <h4>Banho e Tosa</h4>
+                <p>Para qualquer tamanho de pet.</p>
+                <p>R$ 99,99</p>
+              </div>
+
+              <div class="col-md-4">
+                <img src="https://image.shutterstock.com/image-photo/jack-russell-dog-glasses-secretary-260nw-263329673.jpg" alt="Serviço 2" class="img-fluid mb-2">
+                <h4>Tele Busca + Banho e Tosa</h4>
+                <p>Buscamos seu pet em sua residencia.</p>
+                <p>R$ 150,00</p>
+              </div>
+
+            </div>
+        </section>        
+
+    
+        <!-- Cadastro de Clientes -->
+        <section id="cadastro_cliente">
+            <h2>Cadastro de Cliente</h2>
+            <form>
+
+              <fieldset>
+                <legend>Dados do Cliente</legend>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Endereço">
+                <input type="tel" placeholder="Telefone">
+                <input type="email" placeholder="E-mail">
+              </fieldset>
+      
+            </form>
+        </section>
+
+
+        <!-- Cadastro de Pets -->
+        <section id="cadastro_pet">
+            <h2>Cadastro de Pet</h2>
+            <form>
+            
+              <fieldset>
+                <legend>Dados do Pet</legend>
+                <input type="text" placeholder="Nome do Pet">
+                <input type="text" placeholder="Tipo">
+                <input type="text" placeholder="Raça">
+                <input type="text" placeholder="Temperamento">
+              </fieldset>
+
+            </form>
+        </section>
+      
+
+
+        <!-- Agendamentos -->
+        <section id="agendamentos">
+            <h2>Agendamentos</h2>
+            <ul>
+
+              <form action="#" method="post">
+                <label for="pet_nome">Nome do Pet:</label>
+                <input type="text" id="pet_nome" name="pet_nome" required>
+      
+                <label for="dono_nome">Nome do Dono:</label>
+                <input type="text" id="dono_nome" name="dono_nome" required>
+      
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+      
+                <label for="data">Data da Consulta:</label>
+                <input type="date" id="data" name="data" required>
+      
+                <label for="hora">Hora da Consulta:</label>
+                <input type="time" id="hora" name="hora" required>
+      
+                <label for="servico">Serviço:</label>
+                <select id="servico" name="servico" required>
+                    <option value="">Selecione o Serviço</option>
+                    <option value="Banho e Tosa">Banho e Tosa</option>
+                    <option value="Tele Busca">Tele Busca</option>
+                    <option value="Outro">Outro</option>
+                </select>
+      
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes" rows="1"></textarea>
+      
+                <input type="submit" value="Agendar Consulta">
+              </form>
+
+            </ul>
+
+          </section>
+
+          
+    </div>
+    
+   
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+          <p class="nav-link">Contato: contato@petshop.com</p>
+
+          <nav>
+            <ul class="nav">
+            
+              <li class="nav-item"><a class="nav-link" href="#">Termos de uso</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Política de privacidade</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Bruno Dorneles</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">51 9999-9999</a></li>
+  
+            </ul>
+          </nav>
+
+        </div>
+    </footer> 
+
+
+</body>
+</html>
